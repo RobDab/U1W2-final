@@ -10,6 +10,31 @@
 
 /* MAIN */
 
+/* TABELLA */
+#table {
+     display: flex;
+     flex-direction: column;
+     width: 400px;
+   }
+
+   .table_box {
+     display: flex;
+     flex-direction: column;
+   }
+
+   #table .table_box:nth-child(odd) {
+     background-color: grey;
+   }
+
+   .row {
+     display: flex;
+     border: 1px solid black;
+   }
+
+   .row_price {
+     min-width: 150px;
+   }
+
 /* FOOTER */
 
 /* RESPONSIVE */
