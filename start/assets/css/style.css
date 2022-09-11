@@ -6,9 +6,51 @@
      box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.8em;
+  font-size: 1.1em;
+}
+
 /* HEADER */
 
+
+#header_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  color: rgb(210, 22, 22);
+  background-color: white;
+  font-size: 2em;
+  box-shadow: 0px 8px 25px #d3d3d3;
+  /* perchè position sticky non funziona?? */
+  position: sticky;
+  top: 0px;
+  
+}
+
+#header_bottom {
+  padding: 1.5em 1em 1em 1em;
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 5px rgb(60, 60, 60);
+  
+}
+
+#header_bottom h1 {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+
 /* MAIN */
+main {
+  width: 100%;
+}
 
 /* TABELLA */
 #table {
