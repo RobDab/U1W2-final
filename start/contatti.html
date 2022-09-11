@@ -15,5 +15,52 @@
     <title>Epicode | Contatti</title>
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <div>
+        <div>
+          <img src="./assets/images/logo.png" alt="Logo Epicode" />
+        </div>
+        <div>icona puntini</div>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <h1>Contatti</h1>
+      <form method="GET|POST" class="form_message">
+        <input type="text" name="name" id="name" placeholder="Nome e Cognome" required />
+        <input type="email" name="email" id="email" placeholder="Indirizzo valido nome@casella.com" required />
+        <textarea name="comment" id="comment" cols="100%" rows="5" maxlength="300"></textarea>
+        <button type="submit">Invia il messaggio</button>
+      </form>
+      <div class="addresses">
+        <h2>Sede formativa</h2>
+        <p>Via Appia 1 <br>00100 Roma (RM)</p>
+        <h2>Lavora con noi</h2>
+        <p>Per poterti candidare ad un ruolo da docente invia il tuo cv a job@epicode.school</p>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h4>Chi siamo</h4>
+        <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+        <p>Ti piace ciò che vedi? Condividilo con i tuoi amici!</p>
+        <!-- icone social -->
+      </div>
+      <div>
+        <form method="GET|POST" action="register.php">
+          <fieldset>
+            <legend>Iscriviti alla nostra newsletter</legend>
+
+            <input type="email" name="email" id="email" placeholder="tua.mail@mail.com" required />
+          </fieldset>
+
+          <button type="submit" onclick="alert('Complimenti! Una piccola iscrizione alla <Epicode Newsletter> una grande svolta per la tua vita!')">Va bene!</button>
+        </form>
+      </div>
+      <hr />
+      <p>&copy; 2021 Epicode Wed Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678</p>
+    </footer>
+    </footer>
+  </body>
 </html>
